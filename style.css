@@ -1,0 +1,85 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+/* ===== APP CONTAINER ===== */
+.app {
+  width: 360px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #d3d3d3; 
+}
+
+/* ===== SEARCH INPUT ===== */
+#search {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+}
+
+/* ===== AUTOCOMPLETE LIST ===== */
+#autocomplete {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #000;
+}
+
+#autocomplete li {
+  padding: 6px 10px;
+  background: #eeeeee;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+#autocomplete li:last-child {
+  border-bottom: none;
+}
+
+#autocomplete li:hover {
+  background: #4fc3f7; 
+}
+
+/* ===== REPOSITORY LIST ===== */
+#repo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 100px;
+}
+
+/* ===== REPOSITORY ITEM ===== */
+.repo-item {
+  background: #e88cf0; 
+  border: 1px solid #000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===== REPOSITORY TEXT ===== */
+.repo-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+/* ===== DELETE BUTTON ===== */
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: red;
+  cursor: pointer;
+  line-height: 1;
+}
